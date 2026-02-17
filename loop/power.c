@@ -9,8 +9,7 @@ int main(){
     scanf("%d",&b);
     printf("\nEnter power : ");
     scanf("%d",&p);
-    for(int i=1;i<=p;i++)//1 to p
-    {
+    for(int i=1;i<=p;i++){
         result = result*b;
     }
     printf("%d",result);
